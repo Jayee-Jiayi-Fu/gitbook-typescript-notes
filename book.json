@@ -1,0 +1,66 @@
+{
+  "title": "gitbook-typescript-notes",
+  "language": "zh-hans",
+  "author": "Jayee",
+  "description": "TypeScript 和 极客时间《TypeScript开发实践》课程学习笔记",
+  "plugins": [
+    "-lunr",
+    "-sharing",
+    "-fontsettings",
+    "-search",
+    "search-pro",
+    "splitter",
+    "expandable-chapters",
+    "chapter-fold",
+    "cuav-chapters",
+    "heading-anchors",
+    "editlink",
+    "pageview-count",
+    "github-buttons",
+    "code",
+    "todo",
+    "page-footer-ex",
+    "back-to-top-button",
+    "theme-fexa"
+  ],
+  "variables": {
+    "themeFexa": {
+      "nav": [
+        {
+          "url": "https://jayee-jiayi-fu.github.io/",
+          "target": "_blank",
+          "name": "Home"
+        }
+      ]
+    }
+  },
+  "pluginsConfig": {
+    "theme-fexa": {
+      "search-placeholder": "输入关键字搜索",
+      "logo": "./logo.jpg",
+      "favicon": "./favicon.ico"
+    },
+    "github-buttons": {
+      "buttons": [
+        {
+          "user": "jayee-jiayi-fu",
+          "repo": "gitbook-typescript-notes",
+          "type": "star",
+          "size": "small",
+          "count": true
+        }
+      ]
+    },
+    "page-footer-ex": {
+      "copyright": "By [Jayee](https://github.com/jayee-jiayi-fu)",
+      "markdown": true,
+      "update_label": "<i>modified at </i>",
+      "update_format": "YYYY-MM-DD HH:mm:ss"
+    },
+    "editlink": {
+      "base": "https://github.com/jayee-jiayi-fu/gitbook-typescript-notes/blob/master",
+      "label": "Edit THIS PAGES",
+      "multilingual": false
+    }
+  }
+}
